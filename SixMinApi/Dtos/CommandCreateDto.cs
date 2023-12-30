@@ -2,7 +2,7 @@
 
 namespace SixMinApi.Dtos
 {
-    public class CommandUpdateDto
+    public class CommandCreateDto
     {
         [Required]
         public string? HowTo {  get; set; }
