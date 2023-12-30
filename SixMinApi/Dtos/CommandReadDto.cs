@@ -2,16 +2,14 @@
 
 namespace SixMinApi.Dtos
 {
-    public class CommandCreateDto
+    public class CommandReadDto
     {
-        [Required]
+        public int Id { get; set; }
+
         public string? HowTo {  get; set; }
 
-        [Required]
-        [MaxLength(5)]
         public string? Platform { get; set; }
 
-        [Required]
         public string? CommandLine { get; set; }
     }
 }
